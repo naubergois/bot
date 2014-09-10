@@ -1,36 +1,38 @@
-2014/09/09 02:16:51 INFO  - jmeter.util.JMeterUtils: Setting Locale to pt_BR 
-2014/09/09 02:16:51 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2014/09/09 02:16:51 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2014/09/09 02:16:51 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1427507 
-2014/09/09 02:16:51 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.4 
-2014/09/09 02:16:51 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2014/09/09 02:16:52 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
-2014/09/09 02:16:52 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2014/09/09 02:16:52 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2014/09/09 02:16:52 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2014/09/09 02:16:52 WARN  - jmeter.engine.util.CompoundVariable: Did not find any functions 
-2014/09/09 02:16:52 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Grupo de Usuários 
-2014/09/09 02:16:52 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Grupo de Usuários. 
-2014/09/09 02:16:52 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2014/09/09 02:16:52 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2014/09/09 02:16:52 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
-2014/09/09 02:16:52 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
-2014/09/09 02:16:52 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2014/09/09 02:16:52 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2014/09/09 02:16:53 INFO  - jmeter.threads.JMeterThread: Thread started: Grupo de Usuários 1-1 
-2014/09/09 02:16:53 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = mbp-de-nauber 
-2014/09/09 02:16:53 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 1 
-2014/09/09 02:16:54 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
-2014/09/09 02:16:54 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
-2014/09/09 02:16:54 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
-2014/09/09 02:16:54 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2014/09/09 02:16:54 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2014/09/09 02:16:54 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2014/09/09 02:16:54 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2014/09/10 01:03:56 INFO  - jmeter.util.JMeterUtils: Setting Locale to pt_BR 
+2014/09/10 01:03:56 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/09/10 01:03:56 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/09/10 01:03:56 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1427507 
+2014/09/10 01:03:56 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.4 
+2014/09/10 01:03:56 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2014/09/10 01:03:56 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
+2014/09/10 01:03:57 INFO  - jmeter.engine.StandardJMeterEngine: Applying properties {ip=www.vbulletin.com} 
+2014/09/10 01:03:57 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2014/09/10 01:03:57 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2014/09/10 01:03:57 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2014/09/10 01:03:57 WARN  - jmeter.engine.util.CompoundVariable: Did not find any functions 
+2014/09/10 01:03:57 INFO  - jmeter.services.FileServer: Default base='/Users/naubergois/Dropbox/Bot/Bot' 
+2014/09/10 01:03:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Grupo de Usuários 
+2014/09/10 01:03:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Grupo de Usuários. 
+2014/09/10 01:03:57 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2014/09/10 01:03:57 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2014/09/10 01:03:57 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2014/09/10 01:03:57 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2014/09/10 01:03:58 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2014/09/10 01:03:58 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2014/09/10 01:03:58 INFO  - jmeter.threads.JMeterThread: Thread started: Grupo de Usuários 1-1 
+2014/09/10 01:03:58 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = mbp-de-nauber 
+2014/09/10 01:03:58 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 1 
+2014/09/10 01:03:58 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
+2014/09/10 01:03:58 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2014/09/10 01:03:58 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2014/09/10 01:03:58 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2014/09/10 01:03:58 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/09/10 01:03:58 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2014/09/10 01:03:58 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
